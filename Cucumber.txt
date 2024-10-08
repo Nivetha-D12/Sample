@@ -1,0 +1,32 @@
+TDD(test driven development)
+
+*It is fail first software development methodology.
+*In first it will write a test to fail
+*Then write the code to make test pass.
+*Refactor the test and repeated the process till the end of functionality.
+
+BDD(behavior driven development)
+
+*it is also a software development methodology.
+*it is application which is designd to describe how its behavior should appear to user
+*acceptance criteria is used to define the behavior(it is written in plain english before test)
+
+Gherkin language
+
+*In BDD Framework writing scenario is using special language called gherkin language
+*Gherkin language has certain keywords like;
+     -Feature
+     -Scenario
+     -Given,When,Then,And,But(Steps)
+     -Background
+     -Scenario Outline
+     -Examples
+
+Feature - it descrbe the feature,for which acceptance test is written.only one feature keyword per file.
+Scenario - it describe the scenario,we can have multiple scenario in a feature
+Given - it defines the precondition of scenario
+When - it defines the action,which user will take on application
+Then - it define the outcome of when action
+And - it define the additional condition with other keywords
+The file which as these function is called feature file which should have .feature extension
+Step Definiion - for every step in feature file,there will be corresponding java method.the method will have test logic and it is called step definition.
